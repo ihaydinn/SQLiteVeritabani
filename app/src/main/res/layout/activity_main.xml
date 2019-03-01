@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/icbosluk"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/spnID"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:prompt="@string/prm2"
+        android:spinnerMode="dialog"></Spinner>
+
+    <Spinner
+        android:id="@+id/spnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:prompt="@string/prm1"
+        android:spinnerMode="dropdown"></Spinner>
+
+    <EditText
+        android:id="@+id/txtText"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" />
+
+    <EditText
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="80dip" />
+</LinearLayout>
